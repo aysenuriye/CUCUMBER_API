@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.094">
+    <testcase classname="It is used to list all the countries registered in the database." name="Success Response" time="11.144">
+        <system-out>
+            <![CDATA[Given Api kullanicisi "api/profile/allCountries" path parametreleri set eder.passed
+Then AllCountries icin Get request gonderilir...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Used to create a new user" name="Success Response" time="2.265">
+        <system-out>
+            <![CDATA[Given Api kullanicisi "api/register" path parametreleri set eder............passed
+Then Register Customer icin gerekli Request Body "Ayse","Hoca","aysehoca","ay@gmail.com","1234.abc","1234.abc","customer","053621234567","44546545464546" hazirla.passed
+Then Register Customer icin Post request gonder.............................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
